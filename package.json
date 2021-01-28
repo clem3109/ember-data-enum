@@ -6,11 +6,13 @@
     "ember-addon"
   ],
   "homepage": "https://github.com/clem3109/ember-data-enum",
-  "repository": "https://github.com/clem3109/ember-data-enum.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clem3109/ember-data-enum.git"
+  },
   "license": "MIT",
-  "author": "",
+  "author": "clem3109",
   "directories": {
-    "doc": "doc",
     "test": "tests"
   },
   "scripts": {
@@ -74,5 +76,9 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/clem3109/ember-data-enum/issues"
+  },
+  "main": "index.js"
 }
