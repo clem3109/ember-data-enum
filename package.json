@@ -1,7 +1,7 @@
 {
   "name": "ember-data-enum",
   "version": "0.0.1",
-  "description": "A enum attributes for Ember Data's models",
+  "description": "This addon provides a very simple abstraction to use enum attributes with ember data.",
   "keywords": [
     "ember-addon"
   ],
