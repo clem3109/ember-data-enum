@@ -37,6 +37,8 @@
     "@glimmer/component": "^1.0.2",
     "@glimmer/tracking": "^1.0.2",
     "@types/ember": "^3.16.3",
+    "@types/ember-data__model": "^3.16.2",
+    "@types/ember-data__serializer": "^3.16.1",
     "@types/ember-qunit": "^3.4.13",
     "@types/ember-resolver": "^5.0.10",
     "@types/ember__test-helpers": "^1.7.3",
@@ -79,6 +81,5 @@
   },
   "bugs": {
     "url": "https://github.com/clem3109/ember-data-enum/issues"
-  },
-  "main": "index.js"
+  }
 }

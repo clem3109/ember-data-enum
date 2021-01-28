@@ -25,7 +25,7 @@ export default class Enum extends EmberObject {
 		this.#value = value;
 
 		for (let option of this.options) {
-			this.set("is" + capitalize(camelize(option))}, equal(this.#value, option));
+			this.set("is" + capitalize(camelize(option)), equal(this.#value, option));
 		}
 	}
 }
